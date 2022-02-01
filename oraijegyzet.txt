@@ -1,0 +1,111 @@
+2022.01.31 
+--------------------
+
+szükséges szoftverek:
+
+https://www.github.com/andteki/tan/webprog
+
+choco install nodejs -y
+choco install yarn -y
+choco install oracle17jdk -
+ 
+__NodeJS projekt__
+
+Total Commander:
+csinálunk egy mappát,
+aztán terminal: new terminal
+utána: 
+npm init -y
+
+utána:
+npm install --save-dev lite-server
+vagy:
+CMD-be, NE POWERSHELLBE:
+
+yarn add --dev lite-server
+(yarn gyorsabb mint a npm)
+
+
+Ha NEM Total Commanderbe:
+mkdir app01
+
+--------------------------------
+
+Nem fejlessztési időben használt modul telepítése:
+
+yarn add bootstrap
+
+Ha más használni akarja a projektünket:
+
+nem adjuk a node_modules-t:
+
+yarn --install ezzel majd telepítí
+
+
+---------------------------------------
+
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+
+yarn start
+npm start
+(elindítja a programot amit csináltunk CMD)
+
+
+Ha valami elfelejti a --dev vagy a --save-dev kapcsolót:
+yarn add valami 
+yarn add --dev valami
+
+-----------------------------------------
+__GIT__
+
+verzió követő rendszer
+
+choco install git -y
+
+
+Git tároló létrehozása:
+git config --global user.email ""
+git config --global user.name ""
+
+(git config --global user.email
+git config --global user.name) 
+EZZEL ALAPÉRTELMEZETTRE RAKJUK
+IGY MINDIG MÁS TUDJON BELÉPNI
+
+
+git init
+
+git status
+
+a node_modules nevű könyvtárat nem akarjuk verziókövetni.
+
+Készítsünk egy .gitignore
+--------.gitignore------
+node_modules/
+yarn.lock
+------------------------
+
+git add .gitignore
+git add index.html
+git add package.json
+VAGY:
+git add . (mindent hozzá ad)
+
+git commit -m "Kezdés"
+git log 
+
+GITHUB GITLAB GITBUCKET  (bárhova fel lehet tenni filet)
+origin (távoli szerver neve)
+
+
+git remote add origin https://github.com/Roleeygit/app01.git
+git branch -M main
+git push -u origin main
+
+git add index.html
+git commit -m "Táblázat hozzáadva"
+git push origin main 
+
