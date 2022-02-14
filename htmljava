@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feladat0301</title>
+</head>
+<body>
+  <h1>Feladat0301</h1>
+<h2>Kúp</h1>
+
+  <label for="sugar">Sugár</label>
+  <input type="text" id="sugar">
+
+  <label for="magassag">Magasság</label>
+  <input type="text" id="magassag">
+
+<button id="szamitgomb">Számít</button>
+<br>
+<label for="terfogat">Térfogat</label>
+<input type="text" id="terfogat"> <br>
+
+<script src="app.js"></script>
+
+</body>
+</html>
+
+
+
+
+---------------------------------------------------
+
+var sugarElem = document.getElementById('sugar');
+var magassagElem = document.getElementById('magassag');
+
+var szamitgomb = document.getElementById('szamitgomb');
+
+var terfogatElem = document.getElementById('terfogat');
+
+szamitgomb.addEventListener('click', () => {
+  var sugar = Number(sugarElem.value);
+  var magassag = Number(magassagElem.value);
+  var terfogat = (1.0 / 3.0 ) * 
+  Math.pow(sugar, 2) * Math.PI * magassag;
+  console.log(terfogat)
+  terfogatElem.value = terfogat
+});
