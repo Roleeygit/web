@@ -163,10 +163,14 @@ Milyen színt helyettesít a #333: #333333
 Mire való a meta elem: A weboldallal kapcsolatos háttérinformációkat adhatjuk meg. 
 
 
-__FLex dobozok__
 
-flex/
-|-index.html
- -style.css
+__Javascript__
+kiiratás:
+
+böngésző:
+konzol
+weblap
+weblap adott helye
+
  
-.
+
