@@ -109,3 +109,64 @@ git add index.html
 git commit -m "Táblázat hozzáadva"
 git push origin main 
 
+
+DOLGOZAT KÉRDÉSEK:
+
+Hogyan telepítjük a yarnt: npm install yarn / choco install yarn
+
+Hogyan tudunk létrehozni NodeJS projektet: npm init -y
+
+Mi a különbség az "npm init" és az "npm init -y" között: Az egyik automatikusan beirja már az infókat a másik pedig mindegyikre rákérdez
+
+Hogyan telepítjük a lite-server csomagot az npm paranccsal ha csak fejlesztési időben szeretnénk használni: npm install --save-dev lite-server
+
+Hogyan telepítjük a  lite-server csomagot a yarn csomaggal ... : yarn add --dev lite-server
+
+Ha letöltünk egy NodeJS alapú projektet, hogyan telepítünk npm paranccsal a függőségeket: npm install
+
+Ha letöltünk egy NodeJS alapú projektet, hogyan telepítünk yarn paranccsal a függőségeket: yarn install
+
+Hogyan írunk feladatot (task, script) ha szeretnénk elindítani egy lite-servert: "script": { "start": "lite-server" }
+
+Melyik fileba kell írni az indító scriptet: "script":{package.json}
+
+Mit tehetünk, ha kifelejtettük a --save-dev kapcsolót NodeJS csomag telepítésénél: Újra futtatjuk a telepítő utasítást a --save-dev paranccsal.
+
+Melyik parancshoz tartozik a --save-dev kapcsoló: npm
+
+Mit tehetünk, ha kifelejtettük a --dev kapcsolót NodeJS csomag telepítésénél: Újra futtatjuk a telepítő utasítást a --dev paranccsal.
+
+Melyik parancshoz tartozik a --dev kapcsoló: yarn
+
+Ha NodeJS projektet hozok létre az npm paranccsal, milyen állomány keletkezik: package.json
+
+Ha NodeJS projektet hozok létre az yarn paranccsal, milyen állomány keletkezik: package.json
+
+Mire jó a git parancs: Verziókezeléshez tároló létrehozása
+
+Mire jó a choco parancs: Csomagok telepítése windowson
+
+Mire való a git status parancs: A projekt állapotáról tájékoztat verziókövetés szempontjából
+
+Melyik paranccsal tudjuk figyelésre jelölni az adat.txt állományt: git add adat.txt
+
+Melyik paranccsal lehet feltölteni távoli git szerverre a változásokat: git push origin master
+
+Hogyan lehet rögzíteni megjegyzéssel egy változást: git commit -m "Kezdés"
+
+Mire való a .gitignore fájl: .gitignore fájlban írjuk le, azokat a fájlokat amit nem kell követni
+
+Melyik szemantikus HTML elem: <table>
+
+Milyen színt helyettesít a #333: #333333
+
+Mire való a meta elem: A weboldallal kapcsolatos háttérinformációkat adhatjuk meg. 
+
+
+__FLex dobozok__
+
+flex/
+|-index.html
+ -style.css
+ 
+.
