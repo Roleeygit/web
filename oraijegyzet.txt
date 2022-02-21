@@ -172,5 +172,11 @@ konzol
 weblap
 weblap adott helye
 
- 
+Gyakorlati dolgozat: 
+Valamilyen bekérős feladat
+301-től ilyen feladat van 
+
+input elem tartalmát kivenni 
+gombhoz esemény rendelni
+
 
